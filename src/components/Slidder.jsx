@@ -32,7 +32,7 @@ const Slidder = () => {
   };
 
   return (
-    <div className="parentDiv h-[540px] bg-white flex items-center justify-between ">
+    <div className="parentDiv h-[540px] bg-white flex items-center justify-between mobile:hidden ">
       {/* leftArrow div */}
       <div className={arrowStyle} style={{ fontSize: "50px" }}>
         <ArrowLeftOutlined onClick={prevSlide} />

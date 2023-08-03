@@ -14,7 +14,7 @@ const Product = ({item}) => {
         setHoverEffect(' opacity-0')
     }
 
-    const iconsStyle="h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center m-3 cursor-pointer";
+    const iconsStyle="h-[40px] w-[40px] rounded-full bg-white flex items-center justify-center m-3 cursor-pointer hover:bg-[#894af3] hover: text-white hover:scale-[1.1] ease-in duration-100 ";
   return (
     <div className='flex items-center justify-center min-w-[250px] min-h-[350px] overflow-hidden rounded-md shadow-lg m-2 relative' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <img src={item.src} alt="product_image" />

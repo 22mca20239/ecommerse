@@ -4,7 +4,7 @@ import Category from './Category.jsx';
 
 function Categories() {
   return (
-    <div className="flex justify-between items-center p-5">
+    <div className="flex justify-between items-center p-5 mobile:flex-col">
       {
         ApiCategories.map((category, index) => (
           

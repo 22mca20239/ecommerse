@@ -5,6 +5,8 @@ import Categories from "../components/Categories";
 import Navbar from "../components/Navbar";
 import Slidder from "../components/Slidder";
 import Products from "../components/Products";
+import NewsLetter from "../components/NewsLetter";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <Slidder/>
       <Categories/>
       <Products/>
+      <NewsLetter/>
+      <Footer/>
     </div>
   )
 }
